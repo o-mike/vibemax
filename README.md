@@ -1,6 +1,6 @@
 # vibemax
 
-An AI-powered `max()` function. Because why use `max()` when you can ask GPT what's biggest?
+An AI-powered `max()` function.
 
 ## Installation
 
@@ -33,24 +33,15 @@ vibemax([1.1, 2.2, 3.3, 99.9])
 # 99.9
 
 vibemax(['Python', 'Java', 'JavaScript', 'Go'])
-# 'JavaScript' (or maybe 'Python' - depends on the AI's mood!)
+# 'JavaScript'
 
 vibemax([True, False, None, 0, '', 'something'])
 # 'something'
 ```
-
-## The Chaos Factor
-
-90% of the time, vibemax works exactly like you'd expect.
-
-10% of the time, it picks the *second* most obvious choice. Because why not? 🎲
 
 ## How it works
 
 1. Validates input is a list
 2. Converts everything to text for the AI
 3. Asks OpenAI to pick the maximum
-4. Sometimes chaos mode kicks in for fun
-5. Returns the original object
-
-Basically `max()` but with ✨ vibes ✨
+4. Returns the original object
