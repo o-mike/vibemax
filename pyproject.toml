@@ -1,0 +1,34 @@
+[project]
+name = "vibemax"
+version = "0.1.0"
+description = "AI-powered maximum finder that uses OpenAI to determine what 'max' really means"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "openai>=1.99.6",
+]
+authors = [
+    {name = "vibemax", email = "vibemax@example.com"}
+]
+keywords = ["ai", "maximum", "openai", "fun", "vibes"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/o-mike/vibemax"
+Repository = "https://github.com/o-mike/vibemax"
+Issues = "https://github.com/o-mike/vibemax/issues"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
